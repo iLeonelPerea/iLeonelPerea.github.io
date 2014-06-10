@@ -797,6 +797,11 @@ nav ul.menu.nav li i.fa {
     position: relative
 }
 
+.section-container-wrapper .section-container section .h3-header {
+    text-align: center;
+    font-weight: 400
+}
+
 .section-container-wrapper .section-container section .h3-style:after,.section-container-wrapper .section-container section .h3-style:before {
     content: '';
     display: block;
