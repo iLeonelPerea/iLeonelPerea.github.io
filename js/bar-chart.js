@@ -118,7 +118,15 @@ BarChart.prototype.init = function () {
 		'fill': self.options.labelFontColor,
 		'opacity': 0,
 		'class': this.options.labelClassName
-	}).text(function (d) { return d + '%'; });
+	}).text(function (d) { 
+		if(d>=90){
+			return 'advanced'; 
+		}else if(d>=60){
+			return 'intermediate'; 
+		}else{
+			return 'beginner'; 			
+		}
+	});
 
 	this.resizeCanvas();
 

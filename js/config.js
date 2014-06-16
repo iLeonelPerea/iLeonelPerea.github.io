@@ -22,7 +22,7 @@ require.config({
 		'setup': ['jquery','bootstrap','get-scrollbar-width','modernizr'],
 		'resize-text': ['jquery'],
 		'bar-chart': ['jquery', 'd3'],
-		'donut-chart': ['jquery', 'd3'],
+		'donut-chart': ['jquery', 'd3'], 
 		'progress-chart': ['jquery'],
 		'portfolio': ['jquery','url'],
         'colorbox': ['jquery'],
